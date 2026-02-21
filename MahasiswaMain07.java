@@ -15,11 +15,12 @@ public class MahasiswaMain07 {
 
         // Instansiasi menggunakan konstruktor berparameter
         Mahasiswa07 mhs2 = new Mahasiswa07(
-                "2341720002",
-                "Rey Verstapen",
-                "1D",
-                3.6);
+                "2141720162",
+                "Grey Verstapen",
+                "TI 2L",
+                3.4);
 
+        mhs2.UpdateIpk(3.5);
         mhs2.TampilkanInformasi();
     }
 }
