@@ -22,5 +22,13 @@ public class MahasiswaMain07 {
 
         mhs2.UpdateIpk(3.5);
         mhs2.TampilkanInformasi();
+
+        Mahasiswa07 mhsEmillulFata = new Mahasiswa07(
+                "2541070601",
+                "Emillul Fata",
+                "2F",
+                3.9);
+
+        mhsEmillulFata.TampilkanInformasi();
     }
 }
